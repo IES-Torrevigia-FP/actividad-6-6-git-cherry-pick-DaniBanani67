@@ -1,0 +1,12 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-DaniBanani67$ git log --oneline
+0c320eb (HEAD -> main) HOTFIX: corrige error crítico en login
+93d3a15 Crea versión 1.0 de la app~
+20de59c (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
+
+Versión 1.0 de la aplicación.
+HOTFIX: corrige error crítico en login
+
+Esto es util porque puedes aplicar solo un cambio importante
+sin tener que llevar todos los cambios de otra rama.
+asi se puede arreglar errores sin añadir cosas que aún no están listas.

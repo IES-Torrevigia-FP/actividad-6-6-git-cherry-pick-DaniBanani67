@@ -1,0 +1,18 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-DaniBanani67$ git log --oneline
+ed99b5a (HEAD -> test, origin/test) Añade funcionalidad B en develop
+d9fd39e (main) 2
+0c320eb HOTFIX: corrige error crítico en login
+93d3a15 Crea versión 1.0 de la app~
+20de59c (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-DaniBanani67$ cat app.txt
+Versión 1.0 de la aplicación.
+Funcionalidad B: en desarrollo
+HOTFIX: corrige error crítico en login
+
+
+La diferencia es que con merge traes todos los commits de una rama completa
+mientras que con cherry-pick puedes elegir solo los commits que te interesan.
+
+Cherry-pick es más específico, porque puedes traer solo un commit
+o un arreglo sin mezclar todo lo demas.

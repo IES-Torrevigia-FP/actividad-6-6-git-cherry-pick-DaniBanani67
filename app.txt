@@ -1,2 +1,7 @@
 Versión 1.0 de la aplicación.
+<<<<<<< HEAD
 HOTFIX: corrige error crítico en login
+=======
+Funcionalidad B: en desarrollo
+HOTFIX: corrige error crítico en loginHOTFIX: cambio alternativo en login (develop)
+>>>>>>> d1ed072 (Modifica de nuevo la zona del hotfix en develop)

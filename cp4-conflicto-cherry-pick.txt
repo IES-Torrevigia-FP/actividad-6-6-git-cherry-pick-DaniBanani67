@@ -1,0 +1,25 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-DaniBanani67$ git status
+En la rama main
+Tu rama está adelantada a 'origin/main' por 3 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Estás realizando un cherry-picking en el commit d1ed072.
+  (corrige los conflictos y ejecuta "git cherry-pick --continue")
+  (usa "git cherry-pick --skip" para saltar este parche)
+  (usa "git cherry-pick --abort" para cancelar la operación cherry-pick)
+
+Rutas no fusionadas:
+  (usa "git add <archivo>..." para marcar una resolución)
+        modificados por ambos:  app.txt
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+
+Para solucionarlo, abrí el archivo app.txt y edité lo que tenia de forma manual
+dejando una versión coherente. Luego eliminé los marcadores de conflicto (<<<<<<, ======, >>>>>>).
+
+Después ejecuté:
+git add app.txt
+git cherry-pick --continue
+
+Así se completó el cherry-pick correctamente.

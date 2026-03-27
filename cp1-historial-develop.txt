@@ -1,0 +1,7 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-DaniBanani67$ git log --oneline --all
+a3fbf82 (HEAD -> develop) HOTFIX: corrige error crítico en login    <-- Este es el commit que quiero cherry-pickear
+9e7e25f Añade funcionalidad B en develop
+4686c11 Añade funcionalidad A en develop
+93d3a15 (main) Crea versión 1.0 de la app~
+20de59c (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
